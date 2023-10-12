@@ -1,0 +1,150 @@
+Enter the number of the iterations 3
+Enter first guess for x value1
+ 
+Search for an interval around 1 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1               1      -0.16627             1      -0.16627   initial interval
+    3        0.971716      -0.14828       1.02828     -0.185842   search
+    5            0.96     -0.141272          1.04     -0.194434   search
+    7        0.943431     -0.131786       1.05657     -0.207085   search
+    9            0.92     -0.119195          1.08     -0.226014   search
+   11        0.886863     -0.102952       1.11314     -0.254949   search
+   13            0.84    -0.0828802          1.16     -0.300473   search
+   15        0.773726    -0.0596797       1.22627     -0.374849   search
+   17            0.68    -0.0356175          1.32     -0.502339   search
+   19        0.547452    -0.0149671       1.45255     -0.734092   search
+   21            0.36   -0.00279925          1.64      -1.18494   search
+   23       0.0949033  -1.35199e-05        1.9051      -2.12687   search
+   25           -0.28   -0.00102441          2.28      -4.21674   search
+   27       -0.810193    -0.0717394       2.81019      -8.88305   search
+   29           -1.56     -0.973177          3.56       -17.078   search
+   31        -2.62039       -6.9898       4.62039      -5.66451   search
+   33           -4.12      -18.1902          6.12       223.412   search
+ 
+Search for a zero in the interval [-4.12, 6.12]:
+ Func-count    x          f(x)             Procedure
+   33           -4.12      -18.1902        initial
+   34        -3.34903      -14.9495        interpolation
+   35      -0.0155031  -9.62768e-09        interpolation
+   36      -0.0155031  -9.62767e-09        interpolation
+   37      -0.0115935  -3.01097e-09        interpolation
+   38          3.0542      -11.5852        bisection
+   39          4.5871      -7.13675        bisection
+   40          4.5871      -7.13675        bisection
+   41         4.66598      -3.46531        interpolation
+   42          4.7365      0.374713        interpolation
+   43         4.72962    -0.0243317        interpolation
+   44         4.73004  -0.000153868        interpolation
+   45         4.73004    6.7121e-10        interpolation
+   46         4.73004  -1.53211e-14        interpolation
+   47         4.73004  -1.53211e-14        interpolation
+ 
+Zero found in the interval [-4.12, 6.12]
+ 
+Search for an interval around 4.73004 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1         4.73004  -1.53211e-14       4.73004  -1.53211e-14   initial interval
+    3         4.59625      -6.74282       4.86383       8.77015   search
+ 
+Search for a zero in the interval [4.59625, 4.86383]:
+ Func-count    x          f(x)             Procedure
+    3         4.59625      -6.74282        initial
+    4         4.71256     -0.990657        interpolation
+    5         4.73055       0.02959        interpolation
+    6         4.73003   -0.00051373        interpolation
+    7         4.73004  -2.58875e-07        interpolation
+    8         4.73004  -1.53211e-14        interpolation
+    9         4.73004  -1.53211e-14        interpolation
+ 
+Zero found in the interval [4.59625, 4.86383]
+ 
+Search for an interval around 4.73004 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1         4.73004  -1.53211e-14       4.73004  -1.53211e-14   initial interval
+    3         4.59625      -6.74282       4.86383       8.77015   search
+ 
+Search for a zero in the interval [4.59625, 4.86383]:
+ Func-count    x          f(x)             Procedure
+    3         4.59625      -6.74282        initial
+    4         4.71256     -0.990657        interpolation
+    5         4.73055       0.02959        interpolation
+    6         4.73003   -0.00051373        interpolation
+    7         4.73004  -2.58875e-07        interpolation
+    8         4.73004  -1.53211e-14        interpolation
+    9         4.73004  -1.53211e-14        interpolation
+ 
+Zero found in the interval [4.59625, 4.86383]
+result for x -->>
+    4.7300n --->>>3
+q --->>>-1
+ 
+Search for an interval around -1 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1              -1       1.83373            -1       1.83373   initial interval
+    3       -0.971716       1.85172      -1.02828       1.81416   search
+    5           -0.96       1.85873         -1.04       1.80557   search
+    7       -0.943431       1.86821      -1.05657       1.79291   search
+    9           -0.92        1.8808         -1.08       1.77399   search
+   11       -0.886863       1.89705      -1.11314       1.74505   search
+   13           -0.84       1.91712         -1.16       1.69953   search
+   15       -0.773726       1.94032      -1.22627       1.62515   search
+   17           -0.68       1.96438         -1.32       1.49766   search
+   19       -0.547452       1.98503      -1.45255       1.26591   search
+   21           -0.36        1.9972         -1.64      0.815057   search
+   23      -0.0949033       1.99999       -1.9051     -0.126866   search
+ 
+Search for a zero in the interval [-0.0949033, -1.9051]:
+ Func-count    x          f(x)             Procedure
+   23         -1.9051     -0.126866        initial
+   24         -1.9051     -0.126866        interpolation
+   25        -1.87335    0.00726074        interpolation
+   26        -1.87507   0.000157867        interpolation
+   27         -1.8751  -7.32805e-09        interpolation
+   28         -1.8751   2.04947e-13        interpolation
+   29         -1.8751   2.22045e-16        interpolation
+   30         -1.8751   2.22045e-16        interpolation
+ 
+Zero found in the interval [-0.0949033, -1.9051]
+   -1.8751
+
+ 
+Search for an interval around -1.8751 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1         -1.8751   2.22045e-16       -1.8751   2.22045e-16   initial interval
+    3        -1.82207      0.211037      -1.92814     -0.228124   search
+ 
+Search for a zero in the interval [-1.82207, -1.92814]:
+ Func-count    x          f(x)             Procedure
+    3        -1.82207      0.211037        initial
+    4        -1.87304    0.00852616        interpolation
+    5        -1.87511     -2.16e-05        interpolation
+    6         -1.8751   3.27529e-08        interpolation
+    7         -1.8751   1.25122e-13        interpolation
+    8         -1.8751   2.22045e-16        interpolation
+    9         -1.8751   2.22045e-16        interpolation
+ 
+Zero found in the interval [-1.82207, -1.92814]
+   -1.8751
+
+ 
+Search for an interval around -1.8751 containing a sign change:
+ Func-count    a          f(a)             b          f(b)        Procedure
+    1         -1.8751   2.22045e-16       -1.8751   2.22045e-16   initial interval
+    3        -1.82207      0.211037      -1.92814     -0.228124   search
+ 
+Search for a zero in the interval [-1.82207, -1.92814]:
+ Func-count    x          f(x)             Procedure
+    3        -1.82207      0.211037        initial
+    4        -1.87304    0.00852616        interpolation
+    5        -1.87511     -2.16e-05        interpolation
+    6         -1.8751   3.27529e-08        interpolation
+    7         -1.8751   1.25122e-13        interpolation
+    8         -1.8751   2.22045e-16        interpolation
+    9         -1.8751   2.22045e-16        interpolation
+ 
+Zero found in the interval [-1.82207, -1.92814]
+   -1.8751
+
+   -1.8751
+
+>> 
