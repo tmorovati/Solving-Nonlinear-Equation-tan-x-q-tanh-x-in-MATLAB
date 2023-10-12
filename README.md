@@ -1,0 +1,1 @@
+# Solving-Nonlinear-Equation-tan-x-q-tanh-x-in-MATLAB
